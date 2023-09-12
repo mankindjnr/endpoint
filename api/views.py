@@ -7,8 +7,7 @@ import json
 def index(request):
     # utc time
     now_ = datetime.datetime.utcnow()
-    utc_time = now_.isoformat() + "Z"
-
+    utc_time = now_.strftime('%Y-%m-%dT%H:%M:%SZ')
     #current day
     current_date = datetime.date.today()
     day_of_week = current_date.weekday()
