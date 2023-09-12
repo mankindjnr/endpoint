@@ -24,8 +24,8 @@ def index(request):
     track = request.GET.get('track')
 
     # github urls
-    file_url = "https://github.com/mankindjnr/hngx/blob/main/endpoint/stageone/views.py"
-    full_source_code = "https://github.com/mankindjnr/hngx"
+    file_url = "https://github.com/mankindjnr/endpoint/blob/main/api/views.py"
+    full_source_code = "https://github.com/mankindjnr/endpoint"
 
     one_stage = {
         "slack_name":slack_name,
