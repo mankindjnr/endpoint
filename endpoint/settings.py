@@ -25,13 +25,14 @@ SECRET_KEY = 'xf$tqor*ebq46s^(*r9wlvt@h_7ftedzkdm%z&^*%yjmci!$32'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'RENDER' not in os.environ
 # DEBUG = True
-ALLOWED_HOSTS = ['hngxstages.onrender.com']
-
+# ALLOWED_HOSTS = ['hngxstages.onrender.com']
+ALLOWED_HOSTS = []
 
 # Application definition
 
 INSTALLED_APPS = [
     'stageone',
+    'api',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
