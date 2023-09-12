@@ -4,6 +4,9 @@ import datetime
 import requests
 import json
 
+def index(request):
+    return render(request, "stageone/index.html")
+
 def stageone(request):
     # utc time
     now_ = datetime.datetime.utcnow()
