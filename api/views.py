@@ -30,6 +30,7 @@ def index(request):
     one_stage = {
         "slack_name":slack_name,
         "current_day":day_name,
+        "utc_time": utc_time,
         "track":track,
         "github_file_url":file_url,
         "github_repo_url":full_source_code,
