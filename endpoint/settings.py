@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'xf$tqor*ebq46s^(*r9wlvt@h_7ftedzkdm%z&^*%yjmci!$32'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'RENDER' not in os.environ
-
-ALLOWED_HOSTS = []
+# DEBUG = 'RENDER' not in os.environ
+DEBUG = True
+ALLOWED_HOSTS = ['hngxstages.onrender.com']
 
 
 # Application definition
